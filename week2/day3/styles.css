@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  font-family: Georgia, serif;
+}
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 440px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #213555;
+  background: #fef9e1;
+  border-bottom: 6px solid #608bc1;
+  box-shadow: #213555 4px 4px 10px -3px;
+}
+
+/*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
