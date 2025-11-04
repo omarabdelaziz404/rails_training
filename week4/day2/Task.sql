@@ -20,4 +20,10 @@ JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 GROUP BY COUNTRY.CONTINENT;
 
 /*5.Placements*/
-
+SELECT Students.Name
+FROM Friends
+JOIN Packages p1 ON Friends.ID = p1.ID
+JOIN Students ON Friends.ID = Students.ID
+JOIN Packages p2 ON Friends.Friend_ID = p2.ID
+WHERE p2.Salary > p1.Salary
+ORDER BY p2.Salary;
